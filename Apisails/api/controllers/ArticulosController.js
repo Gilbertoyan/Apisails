@@ -5,7 +5,7 @@
  * @help        :: See https://sailsjs.com/docs/concepts/actions
  */
 
-const Articulos = require("../models/Articulos");
+
 
 module.exports = {
     getAllUsers: async function (req, res){

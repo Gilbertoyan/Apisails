@@ -5,11 +5,11 @@
  * @help        :: See https://sailsjs.com/docs/concepts/actions
  */
 
-const Users = require("../models/Users");
+
 
 module.exports = {
   getAllUsers: async function (req, res){
-    var misUsuarios = await Users.find();
+    var misUsuarios = await User.find();
     res.ok(misUsuarios)
   }
 
